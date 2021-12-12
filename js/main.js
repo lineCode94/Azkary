@@ -10,6 +10,7 @@ const plus = document.getElementById('plus');
 const redo = document.getElementById('redo');
 const number = document.getElementById('num');
 const sebha = document.querySelector('.sebha');
+const massaa = document.querySelector('.massaa');
 //start
 strat.addEventListener('click', function () {
     this.remove();
@@ -56,3 +57,13 @@ sebha.addEventListener('click', function () {
     conter.classList.toggle('counter-show');
     this.classList.toggle('sebha-margin')
 })
+//massa 
+// massaa.addEventListener('click', function () {
+//     document.body.style.backgroundImage = '../img/back.jpg';
+// })
+function AzkarMasaa() {
+    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80')"
+}
+function AzkarSabah() {
+    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1566228015668-4c45dbc4e2f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80')"
+}
