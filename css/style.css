@@ -1,0 +1,181 @@
+*{box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth!important;
+
+}
+
+body {
+    text-transform: capitalize;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.unsplash.com/photo-1593872222524-361daae4f782?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80')  ;
+    background-size: cover;
+    font-family: 'Tajawal', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+   
+}
+/* start zekr */
+.strat-zekr {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background-color:rgba(0, 0, 0, 0.6) ;
+    /* background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite; */
+      cursor: pointer; */
+    /* opacity: .8; */
+    /* font-size: 14px; */
+    
+}
+
+/* .strat-zekr button {
+    all: unset;
+    position: absolute;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 15px 30px;
+    background-color:#2D3748;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .5);
+    opacity: 1;
+    z-index: 9999;
+} */
+
+.strat-zekr h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'Aref Ruqaa', serif;
+
+}
+/* nav */
+nav{
+    top:10px;
+
+}
+.app,.big-container{
+    margin:20px 20px;
+}
+.app  h1{
+    color: #fff;
+}
+.app .azkar-container .azkar-block{
+    margin-bottom: 30px;
+}
+.app .azkar-container .azkar-block .card{
+    height: 300px;
+    color: #fff;
+    background-color: #2D3748;
+    cursor: pointer;
+}
+.app .azkar-container .azkar-block .card:hover{
+  transform: scale(1.1);
+  transition: all .5s;
+
+}
+.app .azkar-container .azkar-block .card-body{
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 20px;
+
+}
+.app .azkar-container .azkar-block .card-header{
+    font-family: 'Harmattan', sans-serif;
+    font-size: 23px;
+    border-bottom: 1px solid #fff;
+
+}
+.app .azkar-container .azkar-block span{
+    display: block;
+    position: relative;
+}
+/* //noclick */
+.noClicking {
+    pointer-events: none;
+    cursor: not-allowed!important;
+}
+/* tabs */
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color: transparent;
+    color:#fff
+}
+.nav-link,.nav-link:hover{
+    color:#333
+}
+.sebha{
+    position: fixed;
+    top :300px;
+    right: 0px;
+    cursor: pointer;
+}
+.counter{
+    background-color: #fff ;
+    opacity: .8;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    position: fixed;
+    top :300px;
+    overflow: hidden;
+    padding:4px 10px;
+    right: 1px;
+     margin-right: -210px;  
+
+}
+ .counter-show{
+    margin-right: 0px!important;  
+
+ }
+ .sebha-margin{
+    right:210px
+
+
+ }
+.counter .plus-redo{
+   
+ display: flex;
+ position: relative;
+ overflow: hidden;
+
+   
+}
+.counter .plus-redo .plus-ele{
+    width: 68%;
+   
+}
+.counter .plus-redo .redo-ele{
+   
+     
+float: left;
+}
+ 
+.counter .number{
+ 
+   position: absolute; 
+
+    font-size: 40px;
+right: 87px;
+ 
+ 
+
+    
+
+}
+.counter .number span{
+    font-weight: bold;
+    color:#2D3748;
+
+    
+}
