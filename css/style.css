@@ -76,10 +76,16 @@ nav{
     margin-bottom: 30px;
 }
 .app .azkar-container .azkar-block .card{
-    height: 400px;
+    height: 300px;
     color: #fff;
     background-color: #2D3748;
     cursor: pointer;
+}
+@media (max-width: 575.98px) { 
+    .app .azkar-container .azkar-block .card{
+        height: auto!important;
+    }
+    
 }
 .app .azkar-container .azkar-block .card:hover{
   transform: scale(1.1);
