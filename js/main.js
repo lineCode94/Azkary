@@ -24,20 +24,20 @@ azkarBlock.forEach(function (zakr) {
 
 });
 function handelBadge() {
-    let theInnnerText = parseInt(badge.textContent) - 1;
-    badge.textContent = theInnnerText;
-    if (theInnnerText === 0) {
+    // let theInnnerText = parseInt(badge.textContent) - 1;
+    // badge.textContent = theInnnerText;
+    // if (theInnnerText === 0) {
 
-        badge.classList.remove('bg-danger')
-        badge.classList.add('bg-warning');
-        badge.classList.add('text-dark');
-        badge.classList.add('text-bold');
-        e.classList.add('noClicking');
-
-        // e.remove()
-    }
-
+    //     badge.classList.remove('bg-danger')
+    //     badge.classList.add('bg-warning');
+    //     badge.classList.add('text-dark');
+    //     badge.classList.add('text-bold');
+    //     e.classList.add('noClicking');
+    console.log(1)
+    // e.remove()
 }
+
+// }
 //counter handler
 plus.addEventListener('click', function () {
     num.textContent++;
