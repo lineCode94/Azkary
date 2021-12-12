@@ -85,13 +85,23 @@ nav{
     .app .azkar-container .azkar-block .card{
         height: auto!important;
     }
-    
+    .app .azkar-container .azkar-block .card:hover{
+        transform: scale(1)!important;
+      
+      
+      }
 }
+@media (min-width: 768px) {   .app .azkar-container .azkar-block .card:hover{
+    transform: scale(1)!important;
+  
+  
+  } }
 .app .azkar-container .azkar-block .card:hover{
   transform: scale(1.1);
   transition: all .5s;
 
 }
+
 .app .azkar-container .azkar-block .card-body{
     font-family: 'Aref Ruqaa', serif;
     font-size: 20px;
