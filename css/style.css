@@ -90,7 +90,7 @@ nav{
 @media (max-width: 575.98px) { 
     .app .azkar-container .azkar-block .card{
         height: auto!important;
-        width: 380px
+      
     }
     .app .azkar-container .azkar-block .card:hover{
         transform: scale(1)!important;
