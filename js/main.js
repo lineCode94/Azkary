@@ -87,10 +87,10 @@ sebha.addEventListener('click', function () {
 })
 
 function AzkarMasaa() {
-    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80')"
+    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80')"
 }
 function AzkarSabah() {
-    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1566228015668-4c45dbc4e2f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80')"
+    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1542664408056-8ec64f24de47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NjJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60')"
 }
 //************************************************************** */
 // const badge = document.querySelector('.badge')
