@@ -14,17 +14,24 @@ body {
     margin: 0;
     padding: 0;
     -webkit-background-image: url('https://images.unsplash.com/photo-1542664408056-8ec64f24de47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NjJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60')  ;
+    background-image: url('https://images.unsplash.com/photo-1542664408056-8ec64f24de47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NjJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60')  ;
     background-position: center center;
   
     /* Image doesn't repeat */
     -webkit-background-repeat: no-repeat;
+    -moz-background-repeat: no-repeat;
+    background-repeat: no-repeat;
     
     /* Makes the image fixed in the viewport so that it doesn't move when 
        the content height is greater than the image height */
        -webkit-background-attachment: fixed;
+       -moz-background-attachment: fixed;
+       background-attachment: fixed;
     
     /* This is what makes the background image rescale based on its container's size */
     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
     
     font-family: 'Tajawal', sans-serif;
     font-family: 'Roboto', sans-serif;
