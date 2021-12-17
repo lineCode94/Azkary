@@ -100,7 +100,7 @@ nav{
 }
 @media (max-width: 575.98px) { 
     .nav-tabs .nav-link{
-        width: 100%;
+        width: 100%!important;
 
     }
     nav div button img{
