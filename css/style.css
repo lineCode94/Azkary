@@ -94,8 +94,20 @@ body {
 /* nav */
 nav{
     top:10px;
+    font-size: 16px;
+    font-weight: bolder;
 
 }
+@media (max-width: 575.98px) { 
+    .nav-tabs .nav-link{
+        width: 100%;
+
+    }
+    nav div button img{
+      float: right;
+    }
+}
+
 .app,.big-container{
     margin:20px 20px;
 }
@@ -121,6 +133,7 @@ nav{
       
       
       }
+
 }
 @media (min-width: 768px) {   .app .azkar-container .azkar-block .card:hover{
     transform: scale(1)!important;
@@ -140,7 +153,7 @@ nav{
 }
 .app .azkar-container .azkar-block .card-header{
     font-family: 'Harmattan', sans-serif;
-    font-size: 23px;
+    font-size: 20px;
     border-bottom: 1px solid #fff;
 
 }

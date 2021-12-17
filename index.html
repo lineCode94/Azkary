@@ -28,9 +28,11 @@
     <div class="container">
         <nav>
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" onclick="AzkarSabah()" >أذكار الصباح</button>
-              <button class="nav-link massaa" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false" onclick="AzkarMasaa()" >أذكار المساء</button>
-              
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" onclick="AzkarSabah()" ><img src="img/rub-el-hizb.png"  "  width="20" height="20" alt=""> أذكار الصباح</button>
+              <button class="nav-link massaa" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false" onclick="AzkarMasaa()" ><img src="img/rub-el-hizb.png"  "  width="20" height="20" alt="">أذكار المساء</button>
+              <button class="nav-link sleep" id="nav-sleep-tab" data-bs-toggle="tab" data-bs-target="#nav-sleep" type="button" role="tab" aria-controls="nav-sleep" aria-selected="false" onclick="sleeping()" ><img src="img/rub-el-hizb.png"  "  width="20" height="20" alt=""> أذكار النوم</button>
+              <button class="nav-link wakeUp" id="nav-wakeUp-tab" data-bs-toggle="tab" data-bs-target="#nav-wakeUp" type="button" role="tab" aria-controls="nav-wakeUp" aria-selected="false" onclick="wakeUp()" ><img src="img/rub-el-hizb.png"  "  width="20" height="20" alt=""> أذكار الاستيقاظ</button>
+               
             </div>
           </nav>
           <div class="tab-content" id="nav-tabContent">
@@ -776,7 +778,60 @@
               </div>
            </div>   
             </div>
-            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+            <!-- <div class="tab-pane fade" id="nav-sleep" role="tabpanel" aria-labelledby="nav-sleep-tab"> 
+              <div class="app">
+                <div class="container">
+                   <div class="azkar-container ">
+                    <div class=" col-lg-3 col-md-6 azkar-block">
+                      <div class="card">
+                          <div class="card-header">
+                              آية الكرسي 
+                          </div>
+                          <div class="card-body">
+                            
+                            <p class="card-text">يجمع كفيه ثم ينفث فيهما فيقرأ :
+                              –  بسم الله الرحمن الرحيم { قُلْ هُوَ اللَّهُ أَحَدٌ * اللَّهُ الصَّمَدُ * لَمْ يَلِدْ وَلَمْ يُولَدْ * وَ لَمْ يَكُن لَّهُ كُفُواً أَحَدٌ }.
+                              – بسم الله الرحمن الرحيم {قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ*مِن شَرِّ مَا خَلَقَ* وَ مِن شَرِّ غَاسِقٍ إِذَا وَقَبَ *وَ مِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ * وَ مِن شَرِّ حَاسِدٍ إِذَا حَسَدَ }.
+                              – بسم الله الرحمن الرحيم { قُلْ أَعُوذُ بِرَبِّ النَّاسِ * مَلِكِ النَّاسِ * إِلَهِ النَّاسِ * مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ * الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ * مِنَ الْجِنَّةِ وَ النَّاسِ }.
+                              ثم يمسح بهما ما استطاع من جسده يبديه على رأسه و وجهه و ما أقبل من جسد    </p>
+                            <span   class="padge    position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">1</span>
+                            
+                          </div>
+                        </div>
+                          
+                
+                      </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-wakeUp" role="tabpanel" aria-labelledby="nav-wakeUp-tab">  
+              <div class="app">
+                <div class="container">
+                   <div class="azkar-container ">
+                    <div class=" col-lg-3 col-md-6 azkar-block">
+                      <div class="card">
+                          <div class="card-header">
+                              آية الكرسي 
+                          </div>
+                          <div class="card-body">
+                            
+                            <p class="card-text">يجمع كفيه ثم ينفث فيهما فيقرأ :
+                              –  بسم الله الرحمن الرحيم { قُلْ هُوَ اللَّهُ أَحَدٌ * اللَّهُ الصَّمَدُ * لَمْ يَلِدْ وَلَمْ يُولَدْ * وَ لَمْ يَكُن لَّهُ كُفُواً أَحَدٌ }.
+                              – بسم الله الرحمن الرحيم {قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ*مِن شَرِّ مَا خَلَقَ* وَ مِن شَرِّ غَاسِقٍ إِذَا وَقَبَ *وَ مِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ * وَ مِن شَرِّ حَاسِدٍ إِذَا حَسَدَ }.
+                              – بسم الله الرحمن الرحيم { قُلْ أَعُوذُ بِرَبِّ النَّاسِ * مَلِكِ النَّاسِ * إِلَهِ النَّاسِ * مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ * الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ * مِنَ الْجِنَّةِ وَ النَّاسِ }.
+                              ثم يمسح بهما ما استطاع من جسده يبديه على رأسه و وجهه و ما أقبل من جسد    </p>
+                            <span   class="padge    position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">1</span>
+                            
+                          </div>
+                        </div>
+                          
+                
+                      </div>
+                   </div>
+                </div>
+              </div>
+            </div> -->
           </div>
     
     </div>
