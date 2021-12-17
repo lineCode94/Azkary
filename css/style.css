@@ -106,7 +106,7 @@ nav{
     margin-bottom: 30px;
 }
 .app .azkar-container .azkar-block .card{
-    height: 300px;
+    height: auto;
     color: #fff;
     background-color: #2D3748;
     cursor: pointer;
