@@ -87,11 +87,18 @@ sebha.addEventListener('click', function () {
 })
 
 function AzkarMasaa() {
-    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1548625361-2341a17236b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=415&q=80')"
+    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1626348448069-9b156d20faeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80')"
 }
 function AzkarSabah() {
-    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1542664408056-8ec64f24de47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NjJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60')"
+    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80')"
 }
+function sleeping() {
+    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80')"
+}
+function wakeUp() {
+    document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1624969862293-b749659ccc4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')"
+}
+// https://images.unsplash.com/photo-1541697030313-c55aac74fbae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
 //************************************************************** */
 // const badge = document.querySelector('.badge')
 // const badge = Array.from(document.querySelectorAll('.badge'))
