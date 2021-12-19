@@ -119,20 +119,28 @@ nav{
 }
 .app .azkar-container .azkar-block{
     margin-bottom: 30px;
-
+position: relative;
 }
 .app .azkar-container .azkar-block .card{
     min-height: 250px;
     color: #fff;
     background-color: #222;
     cursor: pointer;
-box-shadow: 0 10px 15px rgba(0, 0, 0, .25);  
 opacity: .8;
 border-radius: 0;
+background-color: #222;
+box-shadow: 0 10px 15px rgba(0, 0, 0, .25);  
+max-height: 350px;
+ margin-left: 4px;
+ padding: 10px;
+ direction: rtl;
+ 
 /* border: 3px solid #718096; */
 
 }
- 
+.padge{
+    margin-right: -14px;
+}
 @media (max-width: 575.98px) { 
     .app .azkar-container .azkar-block .card{
         height: auto!important;
@@ -158,8 +166,10 @@ border-radius: 0;
 
 .app .azkar-container .azkar-block .card-body{
     font-family: 'Aref Ruqaa', serif;
-    font-size: 20px;
-
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+   
 }
 .app .azkar-container .azkar-block .card-header{
     font-family: 'Harmattan', sans-serif;
@@ -259,3 +269,4 @@ right: 87px;
 
     
 }
+ 

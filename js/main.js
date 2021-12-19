@@ -9,6 +9,7 @@ const redo = document.getElementById('redo');
 const number = document.getElementById('num');
 const sebha = document.querySelector('.sebha');
 const massaa = document.querySelector('.massaa');
+const azkarBlocks = document.querySelectorAll('.card')
 //start
 strat.addEventListener('click', function () {
     this.remove();
@@ -98,6 +99,9 @@ function sleeping() {
 function wakeUp() {
     document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1628692945421-21162c93a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')"
 }
+//scrollbar
+
+SimpleScrollbar.initAll();
 // https://images.unsplash.com/photo-1541697030313-c55aac74fbae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
 //************************************************************** */
 // const badge = document.querySelector('.badge')
