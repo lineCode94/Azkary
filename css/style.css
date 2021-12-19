@@ -134,17 +134,17 @@ max-height: 350px;
  margin-left: 4px;
  padding: 10px;
  direction: rtl;
- 
+
 /* border: 3px solid #718096; */
 
 }
 .padge{
     margin-right: -14px;
+    z-index: 9999;
 }
 @media (max-width: 575.98px) { 
     .app .azkar-container .azkar-block .card{
         height: auto!important;
-      
     }
     .app .azkar-container .azkar-block .card:hover{
         transform: scale(1)!important;
