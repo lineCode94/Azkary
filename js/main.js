@@ -34,6 +34,10 @@ let countBtn = () => {
 
     }
 }
+//add attribute
+// azkarBlocks.forEach(zekr => {
+//     zekr.setAttribute(' ', 'data-simplebar')
+// })
 // azkarBlock.map(function (zakr, i) {
 //     badge.map(function (bad, j) {
 //         zakr.addEventListener('click', function () {
