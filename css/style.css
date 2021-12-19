@@ -98,6 +98,9 @@ nav{
     font-weight: bolder;
 
 }
+.nav-tabs{
+    border-bottom: none;
+}
 @media (max-width: 575.98px) { 
     .nav-tabs .nav-link{
         width: 100%!important;
