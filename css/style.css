@@ -140,7 +140,6 @@ max-height: 350px;
 }
 .padge{
     margin-right: -14px;
-    z-index: 9999;
 }
 @media (max-width: 575.98px) { 
     .app .azkar-container .azkar-block .card{
