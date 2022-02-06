@@ -14,9 +14,11 @@ body {
     margin: 0;
     padding: 0;
     -webkit-background-image: url('https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80')  ;
+    -moz-background-image: url('https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80')  ;
     background-image: url('https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80')  ;
+    -webkit-background-position: center center;
+    -moz-background-position: center center;
     background-position: center center;
-  
     /* Image doesn't repeat */
     -webkit-background-repeat: no-repeat;
     -moz-background-repeat: no-repeat;
@@ -43,6 +45,8 @@ body {
       /* The file size of this background image is 93% smaller
        * to improve page load speed on mobile internet connections */
        -webkit-background-image: url('https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80');
+       -moz-background-image: url('https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80');
+       background-image: url('https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80');
     }
       }
 /* @media (max-width: 768px) { body{
@@ -58,7 +62,8 @@ body {
     width: 100%;
     height: 100%;
     z-index: 50;
-    background-color:rgba(0, 0, 0, 0.6) ;
+    -webkit-background:linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%) ;
+    -moz-background:linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%) ;
     /* background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite; */
@@ -129,6 +134,7 @@ position: relative;
 opacity: .8;
 border-radius: 0;
 background-color: #222;
+-webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, .25);  
 box-shadow: 0 10px 15px rgba(0, 0, 0, .25);  
 max-height: 350px;
  margin-left: 4px;
@@ -160,6 +166,7 @@ max-height: 350px;
 .app .azkar-container .azkar-block .card:hover{
   /* transform: scale(1.1); */
   transition: all .5s;
+  -webkit-transform: scale(1)!important;
   transform: scale(1)!important;
 }
 
@@ -220,7 +227,7 @@ max-height: 350px;
     overflow: hidden;
     padding:4px 10px;
     right: 1px;
-     margin-right: -210px;  
+    margin-right: -210px;  
 
 }
  .counter-show{
