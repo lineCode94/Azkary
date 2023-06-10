@@ -210,7 +210,7 @@ max-height: 350px;
         color:#fff
     }
 }
-
+.nav-tabs .nav-link{background-color: transparent;}
 .sebha{
     position: fixed;
     top :300px;
@@ -253,9 +253,11 @@ max-height: 350px;
    
 }
 .counter .plus-redo .redo-ele{
-   
-     margin-right: 10px;
-float: left;
+        
+    float: left;
+    float: left;
+    margin-right: 10px;
+
 }
  
 .counter .number{
